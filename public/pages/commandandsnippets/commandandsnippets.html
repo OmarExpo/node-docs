@@ -12,4 +12,16 @@
              <li>npm touch app.js</li>
          </ul>   
     </p>>
+    <p>
+        <h3>Deploying to Github for CI purpose</h3>
+        <h4>We need to first create a repository in Github including .gitgnore, readme.MD file & optionally licence MIT and then follow the steps below</h4>
+        <ul>
+            <li>git init (to intiliaze your project - assuming you are already in your project folder)</li>
+            <li>git add . (this will stage all your files excluding node_modules)</li>
+            <li>git commit -m "message"</li>
+            <li>git remote add origin 'repository url'  (this is added your repository as remote-repo</li>
+            <li>git pull origin main (this will pull first before pushing as it is best practice)</li>
+            <li>git push (to push to the remote repo)</li>
+        </ul>
+    </p>
     
