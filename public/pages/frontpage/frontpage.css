@@ -1,0 +1,32 @@
+.no-bullets {
+    list-style-type: none;
+  }
+  body {
+    --nav-width: 200px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+  }
+  
+  
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: #222222;
+  }
+  
+  .navigation__list {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+  }
+  
+  .navigation__list:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  

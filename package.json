@@ -1,0 +1,19 @@
+{
+  "name": "node-docs-app",
+  "version": "1.0.0",
+  "description": "This is a project based on NodeJS documentation",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "cross-env nodemon app.j",
+    "start":"node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
+  }
+}
